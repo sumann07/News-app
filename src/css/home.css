@@ -1,0 +1,118 @@
+.brand-Name {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+.link-color {
+    color: #fff;
+    font-weight: bold;
+}
+.background {
+    background-color: #dc4545 !important;
+}
+.ul-margin {
+    margin-left: 40%;
+}
+.logo-brand-name {
+    color: #dc4545;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#header h1 {
+    font-size: 50px;
+}
+#header h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+@media only screen and (max-width:830px){
+    .ul-margin {
+        margin-left:2px;
+    }
+    
+    }
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin: 20px 100px 60px 100px;
+}    
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px solid red;
+    box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+}
+.img-container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
+.link-container {
+    align-items: center;
+}
+.innercard-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.category-heading {
+    background-color: #dc4545 !important;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    margin: auto;
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.newsletter {
+    padding: 80px 0;
+    background: #dc4545;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #fff;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #dc4545;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
+    .footer {
+        padding: 20px 0;
+        background: #d6dddd00;
+        text-align: center;
+    }
+    .about-news {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin: 40px auto 40px auto;
+        
+    }
