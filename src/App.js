@@ -12,7 +12,8 @@ import  "./css/home.css";
 import Home from './component/home';
 
 export class App extends Component {
-  apikey = process.env.REACT_APP_API
+  //apikey = process.env.REACT_APP_API
+  apikey = '460031b7f4c448efbefce5800753d0c4'
   render() {
     return (
       <div>
