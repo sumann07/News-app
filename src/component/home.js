@@ -17,7 +17,7 @@ export default class Home extends Component {
         return (
             <>
                 <section id="header"
-                    className="d-flex align-items-center">
+                    className="d-flex align-items-center" style={{height:'100vh'}}>
                     <div className="container-fluid nav_bg">
                         <div className="row">
                             <div className="col-11 mx-auto">
