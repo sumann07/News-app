@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
-export default class Section1 extends Component {
-
-  render() {
-    let { category,image } = this.props;
+const Section1 =(props)=> {
+    let { category,image } = props;
     console.log(category);
     return (
       <>
@@ -20,4 +18,4 @@ export default class Section1 extends Component {
       </>
     )
   }
-}
+export default Section1;

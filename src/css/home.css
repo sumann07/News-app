@@ -40,7 +40,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    border-radius: 5px solid red;
+    border-radius: 15px;
     box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.75);
@@ -115,4 +115,7 @@
         width: 50%;
         margin: 40px auto 40px auto;
         
+    }
+    .heading {
+        margin-top: 100px!important;
     }

@@ -4,6 +4,11 @@ import Spinner from './spinner';
 import PropTypes from 'prop-types'
 
 export default class News extends Component {
+    
+     capitalize = (str) =>{
+      return str.charAt(0).toUpperCase() + str.slice(1);
+     }
+     
 
     static defaultProps = {
       country : "in",
@@ -29,6 +34,7 @@ export default class News extends Component {
       this.setState({loading : true});
       let data = await fetch(url);
       let parseData = await data.json();
+      console.log (parseData);
       this.setState(
          {
           articles : parseData.articles,
@@ -56,12 +62,13 @@ export default class News extends Component {
         })
         this.updateNews()
     }
+    
 
   render() {
     return (
       <div className='container my-3 '>
-        <h1 className='text-center my-3 category-heading'>
-          Top HeadLines
+        <h1 className='text-center my-3 category-heading heading'>
+          Top HeadLines - {this.capitalize(this.props.category)}
         </h1>
         {this.state.loading && <Spinner />}  
         <div className='row'>

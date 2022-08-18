@@ -1,10 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Newsitem extends Component {
-
-
-  render() {
-    let { title, description, imgUrl, newUrl, author, date,source } = this.props;
+const Newsitem =(props)=>{
+    let { title, description, imgUrl, newUrl, author, date,source } = props;
     return (
       <div>
         <div className="card" >
@@ -23,4 +20,4 @@ export default class Newsitem extends Component {
       </div>
     )
   }
-}
+export default Newsitem;
